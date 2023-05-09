@@ -1,2 +1,13 @@
+<img style="width: 100px"  src="https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png">
+
 # TypesScript
- Curso - React do Zero
+
+Curso - React do Zero
+
+## Por que TypeScript?
+
+- Adiciona **confiabilidade** ao programa (tipos)
+- Provê novas funcionalidades a JS, como **Interfaces**
+- Com TS podemos **verificar os erros antes da execução** do código, ou seja, no desenvolvimento
+- Deixa JavaScript **mais explícito**, diminuindo a quantidade de bugs
+- Por estes e outros motivos **perdemos menos tempo com debug**
