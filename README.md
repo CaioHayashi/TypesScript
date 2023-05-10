@@ -11,3 +11,10 @@ Curso - React do Zero
 - Com TS podemos **verificar os erros antes da execução** do código, ou seja, no desenvolvimento
 - Deixa JavaScript **mais explícito**, diminuindo a quantidade de bugs
 - Por estes e outros motivos **perdemos menos tempo com debug**
+
+## React com TS
+
+- Adicionar **TS ao React** nos dá mais possibilidades
+- Seguindo a mesma linha de que em JS, **temos uma forma mais padronizada de programar**
+- Como **tipos para componentes** ou mapeamento de props **por meio de interface**
+- Isso dá mais **confiabilidade** ao projeto e está sendo cada vez mais utilizado hoje em dia 
