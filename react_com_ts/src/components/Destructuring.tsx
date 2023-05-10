@@ -3,11 +3,18 @@ type Props = {
 	content: string;
 	comentQty: number;
 	tags: string[];
+	category: Category;
 };
 
-const Destructuring = ({ title, content, comentQty, tags }: Props) => {
+export enum Category {
+	TS = "TypeScript",
+	JS = "JavaScript",
+	P = "Python"
+}
+
+const Destructuring = ({ title, content, comentQty, tags, category }: Props) => {
 	return (
-		<div>
+		<div className="container">
 			<h2>{title}</h2>
 			<p>
 				{content}, quantidade de comentários: {comentQty}
@@ -17,6 +24,7 @@ const Destructuring = ({ title, content, comentQty, tags }: Props) => {
 					<span>#{tag} </span>
 				))}
 			</div>
+			<h4>Categoria: {category}</h4>
 		</div>
 	);
 };
